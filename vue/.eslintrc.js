@@ -17,8 +17,10 @@ module.exports = {
     'eslint:recommended',
     'plugin:vue/recommended',
     'plugin:promise/recommended',
+    'prettier',
+    'prettier/vue'
   ],
-  plugins: ['vue', 'prettier'],
+  plugins: ['prettier', 'vue'],
   rules: {
     /* We should always disable console logs and debugging in production */
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
@@ -80,15 +82,12 @@ module.exports = {
     'func-call-spacing': ['error', 'never'],
     'func-name-matching': ['error', {considerPropertyDescriptor: true}],
     'implicit-arrow-linebreak': ['error', 'beside'],
-    indent: ['error', 2],
     'key-spacing': ['error', {beforeColon: false}],
     'keyword-spacing': ['error', {before: true}],
     'line-comment-position': ['error', {position: 'above'}],
     'lines-between-class-members': ['error', 'always'],
-    'max-len': ['error', {code: 120}],
     'multiline-comment-style': ['error', 'starred-block'],
     'new-cap': ['error', {newIsCap: true}],
-    'newline-per-chained-call': ['error', {ignoreChainWithDepth: 1}],
     'no-mixed-operators': 'error',
     'no-multi-assign': 'error',
     'no-multiple-empty-lines': 'error',
