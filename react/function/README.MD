@@ -10,5 +10,5 @@ eslint-plugin-jsx-a11y
 ## for pre-commit hooks:
 
 ```
-yarn add --dev husky lin-staged
+yarn add --dev husky lint-staged
 ```

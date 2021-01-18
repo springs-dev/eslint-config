@@ -6,7 +6,7 @@ module.exports = {
   },
   extends: [
     'airbnb',
-    'prettier',
+    'plugin:react/recommended',
     'prettier/react',
     'plugin:prettier/recommended',
   ],
@@ -17,7 +17,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: ['react', 'prettier'],
+  plugins: ['react'],
   rules: {
     'react/jsx-filename-extension': [1, {extensions: ['.js', '.jsx']}],
     'no-empty-function': 'error',
