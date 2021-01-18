@@ -1,3 +1,9 @@
-const a = require('../.prettierrc.js');
-
-module.exports = a;
+module.exports = {
+  tabWidth: 2,
+  semi: true,
+  trailingComma: 'all',
+  singleQuote: true,
+  bracketSpacing: false,
+  printWidth: 80,
+  arrowParens: 'always',
+};
